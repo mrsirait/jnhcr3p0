@@ -1,0 +1,21 @@
+# Set index.php as the default directory index
+DirectoryIndex index.php
+
+# Enable URL rewriting
+RewriteEngine On
+
+# Redirect root "/" to index.php if no specific file is requested
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^$ index.php [L]
+
+# Optional: Remove .php extension from URLs (uncomment if needed)
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Security: Prevent access to .htaccess file
+<Files ".htaccess">
+Order allow,deny
+Deny from all
+</Files>
