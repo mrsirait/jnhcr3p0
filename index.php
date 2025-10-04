@@ -100,7 +100,18 @@
   </section>
   <!-- Footer-->
   <footer class="py-5 bg-black">
-    <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; JNHS Consulting 2025</p></div>
+    <div class="container px-5">
+      <div class="row">
+        <div class="col-md-6 text-white">
+          <h3>JNHS Consulting dan Legalitas</h3>
+          <i class="fa-solid fa-house me-2"></i>JL Sadar 1 Cluster Dbougenville, Bekasi, Jawa Barat<br>
+          <a href="tel:0821-9768-6635" class="link-light"><i class="fa-solid fa-phone me-2"></i>0821-9768-6635</a>
+        </div>
+        <div class="col-md-6">
+          <p class="m-0 text-end text-white small">Copyright &copy; JNHS Consulting 2025</p>
+        </div>
+      </div>
+    </div>
   </footer>
   <!-- Bootstrap JS -->
   <script src="./js/bootstrap.bundle.min.js"></script>
