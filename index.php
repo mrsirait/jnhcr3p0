@@ -3,18 +3,108 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>JNHS Consulting</title>
+  <!-- Font Awesome icons (free version)-->
+  <script src="./js/all.js" crossorigin="anonymous"></script>
+  <!-- Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!-- <link href="./css/bootstrap.min.css" rel="stylesheet" /> -->
+  <!-- Core theme CSS -->
+  <link href="./css/styles.css" rel="stylesheet" />
 </head>
-<body>
-  <div class="container">
-    <?php
-      echo "<h1>Hello, World!</h1>";
-      echo "<h3>From JNHS Consulting</h3>";
-    ?>
-  </div>
+<body id="page-top">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+    <div class="container px-5">
+      <a class="navbar-brand" href="#page-top">JNHS Consulting dan Legalitas</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#!">Sign Up</a></li>
+          <li class="nav-item"><a class="nav-link" href="#!">Log In</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Header-->
+  <header class="masthead text-center text-white">
+    <div class="masthead-content">
+      <div class="container px-5">
+        <h1 class="masthead-heading mb-0">JNHS</h1>
+        <h2 class="masthead-subheading mb-0">Consulting dan Legalitas</h2>
+        <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Learn More</a>
+      </div>
+    </div>
+    <div class="bg-circle-1 bg-circle"></div>
+    <div class="bg-circle-2 bg-circle"></div>
+    <div class="bg-circle-3 bg-circle"></div>
+    <div class="bg-circle-4 bg-circle"></div>
+  </header>
+  <!-- Content section 1-->
+  <section id="scroll">
+    <div class="container px-5">
+      <div class="row gx-5 align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5"><img class="img-fluid rounded-circle" src="https://placehold.co/700/000000/FFFFFF.png?text=Jasa%20Pajak" alt="..." /></div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">Jasa Pajak</h2>
+            <p>Pengumpulan data dokumen terkait dengan aspek perpajakan, perhitungan Pajak sesuai dengan UU dan Peraturan Perpajakan, dan lain-lain</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Content section 2-->
+  <section>
+    <div class="container px-5">
+      <div class="row gx-5 align-items-center">
+        <div class="col-lg-6">
+          <div class="p-5"><img class="img-fluid rounded-circle" src="https://placehold.co/700/000000/FFFFFF.png?text=Jasa%20Pembukuan" alt="..." /></div>
+        </div>
+        <div class="col-lg-6">
+          <div class="p-5">
+            <h2 class="display-4">Jasa Pembukuan</h2>
+            <ul>
+              <li>Menyiapkan semua Pembuatan Laporan Keuangan dan Pembukuan</li>
+              <li>Penyusunan laporan keuangan ( Rugi, Laba, dan Neraca )</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Content section 3-->
+  <section>
+    <div class="container px-5">
+      <div class="row gx-5 align-items-center">
+        <div class="col-lg-6 order-lg-2">
+          <div class="p-5"><img class="img-fluid rounded-circle" src="https://placehold.co/700/000000/FFFFFF.png?text=Jasa%20Legalitas" alt="..." /></div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="p-5">
+            <h2 class="display-4">Jasa Legalitas</h2>
+            <ul>
+              <li>Pengurusan Pembuatan Akte</li>
+              <li>Pengurusan pembuatan KemenKunHam</li>
+              <li>Pengurusan NIB - Berbasis Resiko</li>
+              <li>Pengurusan PKP, NPWP</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Footer-->
+  <footer class="py-5 bg-black">
+    <div class="container px-5"><p class="m-0 text-center text-white small">Copyright &copy; JNHS Consulting 2025</p></div>
+  </footer>
   <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="./js/scripts.js"></script>
 </body>
 </html>
