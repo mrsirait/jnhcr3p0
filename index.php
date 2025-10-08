@@ -18,7 +18,7 @@
   <!-- Navigation-->
   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
     <div class="container px-5">
-      <a class="navbar-brand" href="#page-top">JNHS Consulting dan Legalitas</a>
+      <a class="navbar-brand" href="#page-top">JNHS Tax Consulting dan Legality</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ms-auto">
@@ -33,7 +33,7 @@
     <div class="masthead-content">
       <div class="container px-5">
         <h1 class="masthead-heading mb-0">JNHS</h1>
-        <h2 class="masthead-subheading mb-0">Consulting dan Legalitas</h2>
+        <h2 class="masthead-subheading mb-0">Tax Consulting dan Legality</h2>
         <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Learn More</a>
       </div>
     </div>
@@ -47,7 +47,7 @@
     <div class="container px-5">
       <div class="row gx-5 align-items-center">
         <div class="col-lg-6 order-lg-2">
-          <div class="p-5"><img class="img-fluid rounded-circle" src="https://placehold.co/700/000000/FFFFFF.png?text=Jasa%20Pajak" alt="..." /></div>
+          <div class="p-5"><img class="img-fluid rounded-circle" src="https://placehold.co/700/6E8CFB/FFFFFF.png?text=Jasa%20Pajak" alt="..." /></div>
         </div>
         <div class="col-lg-6 order-lg-1">
           <div class="p-5">
@@ -63,7 +63,7 @@
     <div class="container px-5">
       <div class="row gx-5 align-items-center">
         <div class="col-lg-6">
-          <div class="p-5"><img class="img-fluid rounded-circle" src="https://placehold.co/700/000000/FFFFFF.png?text=Jasa%20Pembukuan" alt="..." /></div>
+          <div class="p-5"><img class="img-fluid rounded-circle" src="https://placehold.co/700/6E8CFB/FFFFFF.png?text=Jasa%20Pembukuan" alt="..." /></div>
         </div>
         <div class="col-lg-6">
           <div class="p-5">
@@ -82,7 +82,7 @@
     <div class="container px-5">
       <div class="row gx-5 align-items-center">
         <div class="col-lg-6 order-lg-2">
-          <div class="p-5"><img class="img-fluid rounded-circle" src="https://placehold.co/700/000000/FFFFFF.png?text=Jasa%20Legalitas" alt="..." /></div>
+          <div class="p-5"><img class="img-fluid rounded-circle" src="https://placehold.co/700/6E8CFB/FFFFFF.png?text=Jasa%20Legalitas" alt="..." /></div>
         </div>
         <div class="col-lg-6 order-lg-1">
           <div class="p-5">
@@ -103,8 +103,11 @@
     <div class="container px-5">
       <div class="row">
         <div class="col-md-6 text-white">
-          <h3>JNHS Consulting dan Legalitas</h3>
-          <i class="fa-solid fa-house me-2"></i>JL Sadar 1 Cluster Dbougenville, Bekasi, Jawa Barat<br>
+          <h3>JNHS Tax Consulting dan Legality</h3>
+          <div class="d-flex justify-content-start">
+            <i class="fa-solid fa-house mt-1 me-2"></i>
+            <span>The Manhattan Square Building<br>Mid Tower lt. 12 Unit C-F<br>Jl. TB Simatupang Kav 1, Cilandak Tim., Ps. Minggu, Jakarta 12560<span>
+          </div>
           <a href="tel:0821-9768-6635" class="link-light"><i class="fa-solid fa-phone me-2"></i>0821-9768-6635</a>
         </div>
         <div class="col-md-6">
