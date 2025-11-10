@@ -9,8 +9,6 @@
   <!-- Google fonts-->
   <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet" />
-  <!-- Bootstrap CSS -->
-  <!-- <link href="./css/bootstrap.min.css" rel="stylesheet" /> -->
   <!-- Core theme CSS -->
   <link href="./css/styles.css" rel="stylesheet" />
 </head>
@@ -19,28 +17,18 @@
   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
     <div class="container px-5">
       <a class="navbar-brand" href="#page-top">JNHS Tax Consulting dan Legality</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="#!">Sign Up</a></li>
-          <li class="nav-item"><a class="nav-link" href="#!">Log In</a></li>
-        </ul>
       </div>
     </div>
   </nav>
   <!-- Header-->
-  <header class="masthead text-center text-white">
+  <header class="masthead text-center text-white" style="background-image: url('./img/vector-building-2.jpg'); background-position: bottom;">
     <div class="masthead-content">
-      <div class="container px-5">
+      <div class="container px-5 outlined-text-shadow">
         <h1 class="masthead-heading mb-0">JNHS</h1>
         <h2 class="masthead-subheading mb-0">Tax Consulting dan Legality</h2>
         <a class="btn btn-primary btn-xl rounded-pill mt-5" href="#scroll">Learn More</a>
       </div>
     </div>
-    <div class="bg-circle-1 bg-circle"></div>
-    <div class="bg-circle-2 bg-circle"></div>
-    <div class="bg-circle-3 bg-circle"></div>
-    <div class="bg-circle-4 bg-circle"></div>
   </header>
   <!-- Content section 1-->
   <section id="scroll">

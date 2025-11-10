@@ -10919,3 +10919,11 @@ header.masthead .bg-circle-4 {
     font-size: 4rem;
   }
 }
+
+.outlined-text-shadow {
+  color: white;
+  text-shadow: -1px -1px 0 #000, /* Top-left shadow */
+                1px -1px 0 #000,  /* Top-right shadow */
+                -1px 1px 0 #000,  /* Bottom-left shadow */
+                1px 1px 0 #000;   /* Bottom-right shadow */
+}
