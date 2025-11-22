@@ -21,7 +21,7 @@
     </div>
   </nav>
   <!-- Header-->
-  <header class="masthead text-center text-white" style="background-image: url('./img/vector-building-2.jpg'); background-position: bottom;">
+  <header class="masthead text-center text-white" style="background-image: url('./img/bg-building.jpg'); background-position: bottom;">
     <div class="masthead-content">
       <div class="container px-5 outlined-text-shadow">
         <h1 class="masthead-heading mb-0">JNHS</h1>
@@ -94,7 +94,7 @@
           <h3>JNHS Tax Consulting dan Legality</h3>
           <div class="d-flex justify-content-start">
             <i class="fa-solid fa-house mt-1 me-2"></i>
-            <span>The Manhattan Square Building<br>Mid Tower lt. 12 Unit C-F<br>Jl. TB Simatupang Kav 1, Cilandak Tim., Ps. Minggu, Jakarta 12560<span>
+            <span>Jl Raya Kampung Sawah, Gang Sadar 1<br>Cluster D'Bougenville. Jatimurni, Jatimelati<br>Bekasi, Jawa Barat<span>
           </div>
           <a href="tel:0821-9768-6635" class="link-light"><i class="fa-solid fa-phone me-2"></i>0821-9768-6635</a>
         </div>
